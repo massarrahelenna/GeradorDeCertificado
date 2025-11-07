@@ -30,12 +30,6 @@ Antes de rodar o projeto, instale:
 
 ---
 
-## ⚙️ Instalação e Configuração
-
-Siga estes **5 passos** para deixar tudo pronto 👇
-
----
-
 ### 1️. Clone o repositório
 
 Abra seu terminal e clone o projeto:
