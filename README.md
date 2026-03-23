@@ -1,55 +1,54 @@
-# 🧾 Gerador de Certificados em PDF
+# 🧾 PDF Certificate Generator
 
-Script em **Python** para gerar certificados personalizados a partir de um **modelo PDF**, usando fontes elegantes (**Great Vibes** e **Montserrat**).  
-O programa insere automaticamente o **nome do participante**, **nome do workshop**, **datas** e **carga horária** — tudo centralizado e com formatação personalizada.
-
----
-
-## 🚀 Funcionalidades
-
-- Gera certificados em PDF com base em um modelo pré-existente.  
-- Permite inserir:
-  - Nome do participante  
-  - Nome do workshop  
-  - Data do evento  
-  - Data da assinatura  
-  - Carga horária  
-- Ajusta automaticamente o tamanho da fonte do nome (para caber no layout).  
-- Usa fontes personalizadas (**Great Vibes** e **Montserrat**).  
-- Suporte a páginas no formato **A4 paisagem (landscape)**.
+A **Python** script to generate personalized certificates from a **PDF template**, using elegant fonts (**Great Vibes** and **Montserrat**).  
+The program automatically inserts the **participant's name**, **workshop name**, **dates**, and **workload** — all centered with custom formatting.
 
 ---
 
-## 📦 Requisitos
+## 🚀 Features
 
-Antes de rodar o projeto, instale:
+- Generates PDF certificates based on a pre-existing template.
+- Supports inserting:
+  - Participant name
+  - Workshop name
+  - Event date
+  - Signature date
+  - Workload (hours)
+- Automatically adjusts the name font size to fit the layout.
+- Uses custom fonts (**Great Vibes** and **Montserrat**).
+- Supports **A4 landscape** page format.
+
+---
+
+## 📦 Requirements
+
+Before running the project, make sure you have:
 
 - [Python 3.8+](https://www.python.org/downloads/)
-- `pip` (gerenciador de pacotes do Python)
-- `git` (para clonar o repositório)
+- `pip` (Python package manager)
+- `git` (to clone the repository)
 
 ---
 
-### 1️. Clone o repositório
+## ▶️ Getting Started
 
-Abra seu terminal e clone o projeto:
+### 1. Clone the repository
+
+Open your terminal and clone the project:
 
 ```bash
 git clone https://github.com/massarrahelenna/GeradorDeCertificado.git
 cd GeradorDeCertificado
 ```
----
 
-### 2. Instale as dependências
+### 2. Install dependencies
 
 ```bash
 pip install reportlab PyPDF2
 ```
----
 
-### 3. Rode o código
+### 3. Run the script
 
 ```bash
 python gerador.py
 ```
----
